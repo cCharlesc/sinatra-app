@@ -1,3 +1,93 @@
 body {
-  background: lightblue;
+  background:lightgreen;
+}
+
+header {
+  color: red;
+  font-size: 12px;
+}
+li {
+    display: inline-block;
+  font-size: 30px;
+  width:33%;
+}
+
+.titre1 {
+  color: blue;
+  font-size: 30px;
+}
+
+.titre2 {
+  color: blue;
+  font-size: 30px;
+}
+
+.titre3 {
+  color: black;
+  font-size: 10px;
+  text-align: center;
+}
+
+
+.p {
+  color: green;
+font-size: 12px;
+font-family: fantasy;
+font-style: italic
+position: absolute;
+}
+
+.articleprincipal {
+  background: url("http://www.cyclable.com/c/13-category_default/velo-electrique.jpg") no-repeat;
+  background-size:100%;
+  height: 350px;
+  padding:15px;
+}
+
+.testqlex {
+  display:block;
+  position:relative;
+  height:480px;
+}
+
+.container{
+  width:85%;
+  margin:0 auto;
+  overflow:
+hidden;
+max-width:
+700px;
+}
+
+
+.zone{
+padding: 10px;
+position:relative;
+  width:33%;
+  vertical-align: top;
+  height:800px;
+  box-sizing: border-box;
+  float:left;
+}
+
+.zone img{
+  position:relative;
+  width:100%;
+  bottom:0;
+}
+
+
+.container{
+  width:85%;
+  margin:0 auto;
+  overflow:
+hidden;
+max-width:
+700px;
+}
+
+@media screen and (max-width: 640px){
+  .zone{
+    width:100%;
+  }
 }
